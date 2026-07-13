@@ -168,7 +168,7 @@ const DEFAULT_SETTINGS = {
   seo_default_description: "Websites and digital products, designed and built end to end.",
   maintenance_mode: "0",
   maintenance_message: "We're doing a bit of maintenance. Back shortly.",
-  google_client_id: process.env.GOOGLE_CLIENT_ID || "",
+  google_client_id: process.env.GOOGLE_CLIENT_ID || "64676272437-bjl4nnqekk7og2u6l3ki0gab7m1eqc4i.apps.googleusercontent.com",
   facebook_app_id: process.env.FACEBOOK_APP_ID || "",
   ga_measurement_id: "",
 };

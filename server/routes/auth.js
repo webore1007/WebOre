@@ -127,7 +127,7 @@ router.post("/google", async (req, res) => {
     if (!verifyRes.ok) throw new Error("invalid token");
     const payload = await verifyRes.json();
 
-    const expectedClientId = getSetting("google_client_id") || process.env.GOOGLE_CLIENT_ID;
+    const expectedClientId = getSetting("64676272437-bjl4nnqekk7og2u6l3ki0gab7m1eqc4i.apps.googleusercontent.com") || process.env.GOOGLE_CLIENT_ID;
     if (expectedClientId && payload.aud !== expectedClientId) {
       return res.status(401).json({ error: "Google sign-in is not configured for this site." });
     }

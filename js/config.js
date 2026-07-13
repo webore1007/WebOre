@@ -30,5 +30,5 @@ const API_BASE = "";
  * These two act only as a fallback — if the admin panel's Settings page has
  * values saved, those win (see js/main.js's loadPublicSettings()).
  */
-const GOOGLE_CLIENT_ID = "";
+const GOOGLE_CLIENT_ID = "64676272437-bjl4nnqekk7og2u6l3ki0gab7m1eqc4i.apps.googleusercontent.com";
 const FACEBOOK_APP_ID = "";

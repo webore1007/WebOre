@@ -75,7 +75,7 @@ function showSocialError(message) {
 }
 
 function currentGoogleClientId() {
-  return window.GOOGLE_CLIENT_ID || GOOGLE_CLIENT_ID || "";
+  return window.GOOGLE_CLIENT_ID || GOOGLE_CLIENT_ID || "64676272437-bjl4nnqekk7og2u6l3ki0gab7m1eqc4i.apps.googleusercontent.com";
 }
 function currentFacebookAppId() {
   return window.FACEBOOK_APP_ID || FACEBOOK_APP_ID || "";

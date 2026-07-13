@@ -1,0 +1,7 @@
+node_modules
+webore.db
+webore.db-journal
+webore.db-wal
+webore.db-shm
+.env
+uploads/

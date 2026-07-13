@@ -516,3 +516,24 @@ table.data-table tbody tr { border-top: 1px solid var(--border); color: rgba(255
 .admin-banner { border-radius: 14px; padding: 14px 18px; font-size: .8125rem; margin-bottom: 16px; }
 .admin-banner.warn { background: rgba(250,204,21,.1); border: 1px solid rgba(250,204,21,.3); color: #fde68a; }
 .admin-banner.ok { background: rgba(74,222,128,.1); border: 1px solid rgba(74,222,128,.3); color: #86efac; }
+
+.contact-info-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    border-radius: 12px;
+}
+
+.contact-info-row .icon {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+    color: #ffffff;
+}
+
+.contact-info-row span {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.4;
+}
